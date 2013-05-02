@@ -1,4 +1,8 @@
 
+p {
+  font-weight: bold;
+}
+
 #container {
   width: 500px;
   margin: 30px auto 0 auto;
@@ -6,18 +10,13 @@
 
 #form_box {
   border: black solid 2px;
-  padding: 10px;
+  padding: 10px 10px 0 10px;
 }
 
 #form_box input {
   border: black solid 2px;
   display: block;
-/*  float: left;*/
 }
-
-/*#form_box p {
-  display: inline-block;
-}*/
 
 #info_box {
   border: black solid 2px;
