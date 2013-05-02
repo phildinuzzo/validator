@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Phil's Validator</title>
+  <title>Phil and Bryan's Validator</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/jquery-1.8.0.min.js"></script>
@@ -12,20 +12,30 @@
 
 <div id="container">
 
+<h2>Validation</h2>
   <div id="form_box">
     <form>
-      <input name="test" placeholder="Enter your name" type="text">
-      <input name="age" placeholder="Enter your age" type="text">
-      <input name="phone" placeholder="555-555-1234" type="text">
-      <input name="email" placeholder="example@domain.com" type="text">
+
+      <input name="name" id="name_input" placeholder="Enter your name" type="text"><p></p>
+
+      <input name="age" id="age_input" placeholder="Enter your age" type="text"><p></p>
+
+      <input name="phone" id="phone_input" placeholder="555-555-1234" type="text"><p></p>
+
+      <input name="email" id="email_input" placeholder="example@domain.com" type="text"><p></p>
+
       <button>Update</button>
+
       <button>Clear</button>
+
     </form>
   </div>
 
   <div id="info_box">
-
-
+    <p>Name:</p>
+    <p>Age:</p>
+    <p>Phone:</p>
+    <p>Email:</p>
   </div>
 
 </div>
