@@ -16,11 +16,14 @@
   <div id="form_box">
     <form>
 
-      <input name="name" id="name_input" placeholder="Enter your name" type="text"><p></p>
+      <input name="name" id="name_input" placeholder="Enter your name" type="text">
+      <p class="error hidden" id="name_error">Invalid name!</p>
 
-      <input name="age" id="age_input" placeholder="Enter your age" type="text"><p></p>
+      <input name="age" id="age_input" placeholder="Enter your age" type="text">
+      <p class="error hidden" id="age_error">Invalid age!</p>
 
-      <input name="phone" id="phone_input" placeholder="555-555-1234" type="text"><p></p>
+      <input name="phone" id="phone_input" placeholder="555-555-1234" type="text">
+      <p class="error hidden" id="phone_error">Invalid phone!</p>
 
       <input name="email" id="email_input" placeholder="example@domain.com" type="text"><p></p>
 
@@ -32,10 +35,10 @@
   </div>
 
   <div id="info_box">
-    <p>Name:</p>
-    <p>Age:</p>
-    <p>Phone:</p>
-    <p>Email:</p>
+    <p id="name_display">Name: </p>
+    <p id="age_display">Age: </p>
+    <p id="phone_display">Phone: </p>
+    <p>Email: </p>
   </div>
 
 </div>
